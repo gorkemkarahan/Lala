@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64AD1FA329CEC129A6A033B4 /* Pods_Lala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88489AC4FC61D8790071414D /* Pods_Lala.framework */; };
+		DE1E24841E5CCF9100E9C477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E24831E5CCF9100E9C477 /* AppDelegate.swift */; };
+		DE1E24891E5CCF9100E9C477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1E24871E5CCF9100E9C477 /* Main.storyboard */; };
+		DE1E248B1E5CCF9100E9C477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1E248A1E5CCF9100E9C477 /* Assets.xcassets */; };
+		DE1E248E1E5CCF9100E9C477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1E248C1E5CCF9100E9C477 /* LaunchScreen.storyboard */; };
+		DE370AB11E62DB04006928FF /* GlobalUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE370AB01E62DB04006928FF /* GlobalUtilities.swift */; };
+		DE508D4F1E603BEE003C700F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE508D4D1E603BEE003C700F /* LoginViewController.swift */; };
+		DE508D501E603BEE003C700F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE508D4E1E603BEE003C700F /* MessagesViewController.swift */; };
+		DE508D581E603C37003C700F /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE508D531E603C37003C700F /* MessageCollectionViewCell.swift */; };
+		DE508D591E603C37003C700F /* MessagePositionLeftCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE508D541E603C37003C700F /* MessagePositionLeftCollectionViewCell.xib */; };
+		DE508D5A1E603C37003C700F /* MessagePositionRightCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE508D551E603C37003C700F /* MessagePositionRightCollectionViewCell.xib */; };
+		DE508D5B1E603C37003C700F /* GKTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE508D571E603C37003C700F /* GKTextView.swift */; };
+		DE52CC381E5DA1C500569F53 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52CC371E5DA1C500569F53 /* Message.swift */; };
+		DE52CC3B1E5DA2A200569F53 /* AlamofireDataRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52CC3A1E5DA2A200569F53 /* AlamofireDataRequestExtension.swift */; };
+		DE52CC3D1E5DA30200569F53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52CC3C1E5DA30200569F53 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88489AC4FC61D8790071414D /* Pods_Lala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE851F39B05B1F71E45145E /* Pods-Lala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lala.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lala/Pods-Lala.release.xcconfig"; sourceTree = "<group>"; };
+		DE1E24801E5CCF9100E9C477 /* Lala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1E24831E5CCF9100E9C477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE1E24881E5CCF9100E9C477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1E248A1E5CCF9100E9C477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1E248D1E5CCF9100E9C477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1E248F1E5CCF9100E9C477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE370AB01E62DB04006928FF /* GlobalUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUtilities.swift; sourceTree = "<group>"; };
+		DE508D4D1E603BEE003C700F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE508D4E1E603BEE003C700F /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		DE508D531E603C37003C700F /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE508D541E603C37003C700F /* MessagePositionLeftCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagePositionLeftCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE508D551E603C37003C700F /* MessagePositionRightCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagePositionRightCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE508D571E603C37003C700F /* GKTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKTextView.swift; sourceTree = "<group>"; };
+		DE52CC371E5DA1C500569F53 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DE52CC3A1E5DA2A200569F53 /* AlamofireDataRequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireDataRequestExtension.swift; sourceTree = "<group>"; };
+		DE52CC3C1E5DA30200569F53 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED5483EACACB0FDEB41CAA58 /* Pods-Lala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lala/Pods-Lala.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1E247D1E5CCF9100E9C477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AD1FA329CEC129A6A033B4 /* Pods_Lala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7D72AFB67F10D623D870B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88489AC4FC61D8790071414D /* Pods_Lala.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AB6D37C038B78858FBDD80D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED5483EACACB0FDEB41CAA58 /* Pods-Lala.debug.xcconfig */,
+				DBE851F39B05B1F71E45145E /* Pods-Lala.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE1E24771E5CCF9100E9C477 = {
+			isa = PBXGroup;
+			children = (
+				DE1E24821E5CCF9100E9C477 /* Lala */,
+				DE1E24811E5CCF9100E9C477 /* Products */,
+				9AB6D37C038B78858FBDD80D /* Pods */,
+				0A7D72AFB67F10D623D870B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1E24811E5CCF9100E9C477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1E24801E5CCF9100E9C477 /* Lala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1E24821E5CCF9100E9C477 /* Lala */ = {
+			isa = PBXGroup;
+			children = (
+				DE508D4C1E603BEE003C700F /* Controllers */,
+				DE52CC391E5DA2A200569F53 /* Extensions */,
+				DE52CC341E5DA18100569F53 /* Models */,
+				DE508D511E603C37003C700F /* Views */,
+				DE370AAF1E62DADB006928FF /* Utilities */,
+				DE1E24831E5CCF9100E9C477 /* AppDelegate.swift */,
+				DE1E24871E5CCF9100E9C477 /* Main.storyboard */,
+				DE1E248A1E5CCF9100E9C477 /* Assets.xcassets */,
+				DE1E248C1E5CCF9100E9C477 /* LaunchScreen.storyboard */,
+				DE1E248F1E5CCF9100E9C477 /* Info.plist */,
+			);
+			path = Lala;
+			sourceTree = "<group>";
+		};
+		DE370AAF1E62DADB006928FF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DE370AB01E62DB04006928FF /* GlobalUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DE508D4C1E603BEE003C700F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE508D4D1E603BEE003C700F /* LoginViewController.swift */,
+				DE508D4E1E603BEE003C700F /* MessagesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE508D511E603C37003C700F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE508D521E603C37003C700F /* Cells */,
+				DE508D561E603C37003C700F /* Custom */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE508D521E603C37003C700F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE508D531E603C37003C700F /* MessageCollectionViewCell.swift */,
+				DE508D541E603C37003C700F /* MessagePositionLeftCollectionViewCell.xib */,
+				DE508D551E603C37003C700F /* MessagePositionRightCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE508D561E603C37003C700F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DE508D571E603C37003C700F /* GKTextView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		DE52CC341E5DA18100569F53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE52CC371E5DA1C500569F53 /* Message.swift */,
+				DE52CC3C1E5DA30200569F53 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE52CC391E5DA2A200569F53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE52CC3A1E5DA2A200569F53 /* AlamofireDataRequestExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1E247F1E5CCF9100E9C477 /* Lala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1E24921E5CCF9100E9C477 /* Build configuration list for PBXNativeTarget "Lala" */;
+			buildPhases = (
+				67E18AB74558993C5150A5FD /* [CP] Check Pods Manifest.lock */,
+				DE1E247C1E5CCF9100E9C477 /* Sources */,
+				DE1E247D1E5CCF9100E9C477 /* Frameworks */,
+				DE1E247E1E5CCF9100E9C477 /* Resources */,
+				634C945F8E4938D51282CF5B /* [CP] Embed Pods Frameworks */,
+				F39E2E54CC1D4F50E14ECA6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lala;
+			productName = Lala;
+			productReference = DE1E24801E5CCF9100E9C477 /* Lala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1E24781E5CCF9100E9C477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Migros;
+				TargetAttributes = {
+					DE1E247F1E5CCF9100E9C477 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE1E247B1E5CCF9100E9C477 /* Build configuration list for PBXProject "Lala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1E24771E5CCF9100E9C477;
+			productRefGroup = DE1E24811E5CCF9100E9C477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1E247F1E5CCF9100E9C477 /* Lala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1E247E1E5CCF9100E9C477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1E248E1E5CCF9100E9C477 /* LaunchScreen.storyboard in Resources */,
+				DE1E248B1E5CCF9100E9C477 /* Assets.xcassets in Resources */,
+				DE508D591E603C37003C700F /* MessagePositionLeftCollectionViewCell.xib in Resources */,
+				DE508D5A1E603C37003C700F /* MessagePositionRightCollectionViewCell.xib in Resources */,
+				DE1E24891E5CCF9100E9C477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		634C945F8E4938D51282CF5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lala/Pods-Lala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E18AB74558993C5150A5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F39E2E54CC1D4F50E14ECA6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lala/Pods-Lala-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1E247C1E5CCF9100E9C477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE508D581E603C37003C700F /* MessageCollectionViewCell.swift in Sources */,
+				DE508D4F1E603BEE003C700F /* LoginViewController.swift in Sources */,
+				DE52CC3B1E5DA2A200569F53 /* AlamofireDataRequestExtension.swift in Sources */,
+				DE52CC381E5DA1C500569F53 /* Message.swift in Sources */,
+				DE1E24841E5CCF9100E9C477 /* AppDelegate.swift in Sources */,
+				DE508D5B1E603C37003C700F /* GKTextView.swift in Sources */,
+				DE370AB11E62DB04006928FF /* GlobalUtilities.swift in Sources */,
+				DE508D501E603BEE003C700F /* MessagesViewController.swift in Sources */,
+				DE52CC3D1E5DA30200569F53 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE1E24871E5CCF9100E9C477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1E24881E5CCF9100E9C477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1E248C1E5CCF9100E9C477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1E248D1E5CCF9100E9C477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1E24901E5CCF9100E9C477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1E24911E5CCF9100E9C477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1E24931E5CCF9100E9C477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5483EACACB0FDEB41CAA58 /* Pods-Lala.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.gorkem.Lala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE1E24941E5CCF9100E9C477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE851F39B05B1F71E45145E /* Pods-Lala.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.gorkem.Lala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1E247B1E5CCF9100E9C477 /* Build configuration list for PBXProject "Lala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1E24901E5CCF9100E9C477 /* Debug */,
+				DE1E24911E5CCF9100E9C477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1E24921E5CCF9100E9C477 /* Build configuration list for PBXNativeTarget "Lala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1E24931E5CCF9100E9C477 /* Debug */,
+				DE1E24941E5CCF9100E9C477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1E24781E5CCF9100E9C477 /* Project object */;
+}
