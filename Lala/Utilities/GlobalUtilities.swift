@@ -3,7 +3,7 @@
 //  Lala
 //
 //  Created by Görkem Karahan on 26/02/2017.
-//  Copyright © 2017 Migros. All rights reserved.
+//  Copyright © 2017 Görkem Karahan. All rights reserved.
 //
 
 import UIKit
